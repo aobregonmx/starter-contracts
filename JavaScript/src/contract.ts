@@ -8,6 +8,7 @@ class Participante {
   cuenta: string;
   edad: number;
   certificado: boolean;
+  email: string;
 
   //Inicializamos el objeto
   constructor(nombre: string, cuenta: string, edad: number) {
@@ -15,6 +16,7 @@ class Participante {
     this.cuenta = cuenta;
     this.edad = edad;
     this.certificado = false;
+    this.email = '';
   }
 }
 
